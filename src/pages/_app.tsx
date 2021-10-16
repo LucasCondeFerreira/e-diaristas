@@ -2,7 +2,7 @@ import '@styles/globals.css'
 import type { AppProps } from 'next/app'
 import { ThemeProvider } from '@mui/material'
 import theme from 'ui/themes/theme'
-import head from 'next/head'
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
