@@ -1,6 +1,5 @@
 import { styled } from '@mui/material/styles'
 import { AppBar } from '@mui/material'
-import theme from 'ui/themes/theme'
 
 export const HeaderAppBar = styled(AppBar)`
   position: sticky;
@@ -18,7 +17,7 @@ export const HeaderAppBar = styled(AppBar)`
       display: flex;
       justify-content: center;
     }
-  }
+  } ;
 `
 export const HeaderLogo = styled('img')`
   height: 25px;
